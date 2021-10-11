@@ -4,13 +4,15 @@
 
 ## Apresentações de trabalhos
 
-## E-book
+## Aprenda LaTeX
 
-* [E-book Latex](https://ej-ensino.com.br/wp-content/uploads/2021/06/E-book-IFMG-Uso-da-ferramenta-latex.pdf)
+* E-book:
+
+  * [E-book Latex](https://ej-ensino.com.br/wp-content/uploads/2021/06/E-book-IFMG-Uso-da-ferramenta-latex.pdf)
 
 
-## Curso online gratuito
+* Curso online gratuito
 
-* Para conhecer e aprender sobre o Latex, inscreva-se no curso desenvolvido na plataforma +IFMG: Editor de texto e imagem: uso da ferramenta LaTeX
+  * Curso desenvolvido na plataforma +IFMG: Editor de texto e imagem: uso da ferramenta LaTeX
 https://mais.ifmg.edu.br/course/index.php?categoryid=12
 
