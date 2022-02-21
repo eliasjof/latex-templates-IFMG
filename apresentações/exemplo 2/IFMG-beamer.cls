@@ -19,7 +19,7 @@
 % --------------------------------------------------- %
 %                       Packages  	                  %
 % --------------------------------------------------- %
-\usepackage[english, brazilian]{babel}
+\usepackage[english, brazil]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{helvet}
