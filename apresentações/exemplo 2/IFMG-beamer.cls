@@ -12,9 +12,9 @@
 \ProvidesClass{IFMG-beamer}[19/02/2022, v1.0]
 
 \PassOptionsToPackage{svgnames, table}{xcolor}
-\LoadClass[handout, compress, 9pt, xcolor=table]{beamer}
+\LoadClass[handout, compress, 10pt, xcolor=table]{beamer}
 %%% Utilize a linha abaixo para acrescentar o efeito das pausas e animações
-%\LoadClass[compress, 9pt, xcolor=table]{beamer}
+%\LoadClass[compress, 10pt, xcolor=table]{beamer}
 
 % --------------------------------------------------- %
 %                       Packages  	                  %
@@ -44,7 +44,8 @@
 \usepackage{multirow}
 %para códigos
 \usepackage{minted}
-
+\usepackage{tipa} 
+\usepackage{lmodern}
 
 
 
@@ -487,6 +488,15 @@
 
 \setbeamerfont{institute}{size=\normalsize}
 \setbeamerfont{author}{size=\large}
-\setbeamerfont{title}{size=\huge}
+\setbeamerfont{title}{size=\Large}
+
+\setbeamerfont{block body}{size=\large}
+\setbeamerfont{block title}{size=\large}
+
+\setbeamerfont{block title example}{size=\large}
+\setbeamerfont{block title alerted}{size=\large}
+\setbeamerfont{block body alerted}{size=\large}
+\setbeamerfont{block body example}{size=\large}
+
 
 \setbeamertemplate{caption}[numbered]
