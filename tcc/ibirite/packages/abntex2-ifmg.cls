@@ -23,7 +23,7 @@
 % ------------------------------------------------------------------------
 % ------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{packages/abntex2-ifmg}[2021 v2.0 abnTeX2]
+\ProvidesClass{tcc/ibirite/packages/abntex2-ifmg}[2021 v2.0 abnTeX2]
 \RequirePackage{ifthen}
 %
 % Captura as options article e twocolumn

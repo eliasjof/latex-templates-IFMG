@@ -9,7 +9,7 @@
 
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{IFMG-beamer}[19/02/2022, v1.0]
+\ProvidesClass{apresentacoes/exemplo-2/IFMG-beamer}[19/02/2022, v1.0]
 
 \PassOptionsToPackage{svgnames, table}{xcolor}
 \LoadClass[handout, compress, 10pt, xcolor=table]{beamer}

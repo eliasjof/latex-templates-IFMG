@@ -1,4 +1,4 @@
-\documentclass[table,xcolor=table]{apresentações/exemplo 2/IFMG-beamer}
+\documentclass[table,xcolor=table]{apresentacoes/exemplo-2/IFMG-beamer}
 
 % --------------------------------------------------- %
 %                  Informações      	              %
@@ -382,18 +382,21 @@ Cinza}
 
 \section{Equações e códigos}
 \subsection{Equações}
+
+
 \begin{frame}
 \frametitle{Exemplos de equações}
 
 
-\begin{block}{Exemplo de equação numerada}
-\begin{align}
-    \frac{\partial}{\partial \theta_k}J(\theta) 
-        &= \frac{\partial}{\partial \theta_k}\Bigg[\frac{1}{m}\sum_{k=1}^m log(1+e^{-y^{(i)}\theta^Tx^{(i)}})\Bigg] \\
-        &= \frac{1}{m}\sum_{k=1}^m \frac{1}{1+e^{-y^{(i)}\theta^Tx^{(i)}}}y^{(i)}x_k^{(i)} \\
-        &= -\frac{1}{m}\sum_{k=1}^m h_\theta(-y^{(i)}x^{(i)})y^{(i)}x_k^{(i)}        
-\end{align}
-\end{block}
+    \begin{block}{Exemplo de equação numerada}
+        \begin{align}
+            \frac{\partial}{\partial \theta_k}J(\theta) 
+                &= \frac{\partial}{\partial \theta_k}\Bigg[\frac{1}{m}\sum_{k=1}^m log(1+e^{-y^{(i)}\theta^Tx^{(i)}})\Bigg] \\
+                &= \frac{1}{m}\sum_{k=1}^m \frac{1}{1+e^{-y^{(i)}\theta^Tx^{(i)}}}y^{(i)}x_k^{(i)} \\
+                &= -\frac{1}{m}\sum_{k=1}^m h_\theta(-y^{(i)}x^{(i)})y^{(i)}x_k^{(i)}        
+        \end{align}
+    \end{block}
+    
 \begin{block}{Exemplo de equação não numerada}
     \begin{equation*}
         y(t) = Ax(t) + Bu(t)
@@ -403,34 +406,30 @@ Cinza}
 \end{frame}
 
 \subsection{Programação}
-\begin{frame}[fragile]
 
-\frametitle{Código de exemplo}
+% \begin{frame}{Código de exemplo}
 
-
-
-\begin{block}{Código}
-\begin{lstlisting}
-def code():
-  # test comments #1    
-  if True:
-    for _ in range(5):
-      print("Hello World 5 times")
-  return None     
-\end{lstlisting}
-\end{block}
-
-\begin{lstlisting}[backgroundcolor = \color{lightgray}]
-def code():
-  # test comments #1    
-  if True:
-    for _ in range(5):
-      print("Hello World 5 times")
-  return None     
-\end{lstlisting}
-
-\end{frame}
-
+%     \begin{block}{Código 1}
+%         \begin{lstlisting}
+%         def code():
+%           # test comments #1    
+%           if True:
+%             for _ in range(5):
+%               print("Hello World 5 times")
+%           return None     
+%         \end{lstlisting}
+%       \end{block}   
+%      \begin{block}{Código 2}   
+%         \begin{lstlisting}[backgroundcolor = \color{lightgray}]
+%         def code():
+%           # test comments #1    
+%           if True:
+%             for _ in range(5):
+%               print("Hello World 5 times")
+%           return None     
+%         \end{lstlisting}
+%     \end{block}
+% \end{frame}
 
 \begin{frame}{Arquivo .py}
     \begin{block}{Código direto de um arquivo python}
@@ -459,11 +458,13 @@ def code():
 \bibliographystyle{apalike} %para mostrar autor e data
 %\tiny
 %\bibliographystyle{unsrt} %abbrv}
-
+\end{frame}
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
 
 \bibliography{references}
+
+
 
 \end{document}
